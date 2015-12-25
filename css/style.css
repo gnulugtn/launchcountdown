@@ -370,3 +370,17 @@ footer {
 	margin: 1em auto;
 	text-align: center;
 }
+
+.sharenow {
+	margin: 4em auto 0 auto;
+	text-align: center;
+}
+
+.sharetitle {
+	margin-bottom: 1em;
+}
+
+#countdown-area {
+	margin: 0;
+	padding: 0;
+}
