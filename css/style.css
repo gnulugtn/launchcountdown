@@ -4,10 +4,23 @@ Tags: Dark, coming soon, under construction, black, one column
 */
 
 body{
-	background:#202020;
 	color:#fff;
 	font:18px/28px 'Raleway', sans-serif;
 	font-weight:300;
+	background-image: url("../images/tn.jpg");
+	background-size: cover;
+}
+
+body:before {
+    background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+    content: " ";
+    height: 100%;
+    position: absolute;
+    width: 100%;
+		-webkit-box-shadow: inset 10px 10px 256px 128px rgba(0,0,0,0.6);
+		-moz-box-shadow: inset 10px 10px 256px 128px rgba(0,0,0,0.6);
+		box-shadow: inset 10px 10px 256px 128px rgba(0,0,0,0.6);
+
 }
 
 /* General  */
@@ -62,12 +75,12 @@ h6{
 }
 	.header-overlay{
 		background:rgba(0, 0, 0, 0.6);
-		padding:30px 0;		
+		padding:30px 0;
 	}
-	 
+
 .hexagon {
   position: relative;
-  width: 70px; 
+  width: 70px;
   height: 40.41px;
   background-color: #05c3f9 ;
   margin: 90px auto 140px auto;
@@ -128,11 +141,11 @@ top: -13%; }
 	#header .main-head h4{
 		line-height:40px;
 	}
-	
-/* Countdown  */	
-	
+
+/* Countdown  */
+
 	#countdown-area{
-		
+
 		padding:40px 0;
 		margin:0 0 40px;
 	}
@@ -166,7 +179,7 @@ top: -13%; }
 					margin:0;
 					padding:15px 0 30px 0;
 				}
-				
+
 
 /* Main Heading Style Starts */
 
@@ -183,7 +196,7 @@ top: -13%; }
 			font-size:24px;
 			line-height:36px;
 		}
-		
+
 
 /* Services */
 
@@ -207,12 +220,12 @@ top: -13%; }
 			padding:20px 20px 30px 20px;
 		}
 			#services-blocks div span.fa{
-				
+
 				width:110px;
 				height:110px;
 				line-height:110px;
 				font-size:60px;
-				
+
 				color:rgba(255,255,255,1);
 				-webkit-border-radius:50%;
 				   -moz-border-radius:50%;
@@ -229,7 +242,7 @@ box-shadow: none !important; }
 .#contact{
 	background:#05c3f9;
 	padding:50px 0;
-}	
+}
 .MT40 { margin-top:40px;}
 #contact p { font-size:16px;}
 	#contact-area{
@@ -243,13 +256,13 @@ box-shadow: none !important; }
 				margin:0 0 20px;
 			}
 				#contact-form .form-control{
-					
+
 					font-size:16px;
 					font-weight:400;
 					-webkit-border-radius:5px;
 					   -moz-border-radius:5px;
 					        border-radius:5px;
-					
+
 				}
 				#contact-form .form-control:focus{
 					border-color:#fff;
@@ -259,9 +272,9 @@ box-shadow: none !important; }
 					line-height:40px !important;
 					padding:3px 20px 0;
 				}
-				
-				
-		
+
+
+
 
 /* Footer  */
 
@@ -274,12 +287,12 @@ box-shadow: none !important; }
 }
 
 #footer p {margin:10px; }
-	
-	
+
+
 	/* Responsive */
-	
-	
-		
+
+
+
 /* Contact Style Starts */
 
 	#contact h3, .address, #contact-form .form-group{
@@ -288,7 +301,7 @@ box-shadow: none !important; }
 	#contact-area{
 		padding-bottom:20px;
 	}
-	
+
 }
 
 
@@ -338,5 +351,22 @@ box-shadow: none !important; }
 	.copyright{
 		font-size:16px;
 	}
-	
+
+}
+
+.header-overlay {
+	background: none;
+}
+
+#header {
+	position: relative;
+	padding-top: 8em;
+}
+
+footer {
+	color: white;
+	width: 80%;
+	position: relative;
+	margin: 1em auto;
+	text-align: center;
 }
