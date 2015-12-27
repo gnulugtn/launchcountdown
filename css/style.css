@@ -356,7 +356,6 @@ box-shadow: none !important; }
 
 .header-overlay {
 	background: none;
-	padding: 0;
 }
 
 #header {
@@ -373,7 +372,7 @@ footer {
 }
 
 .sharenow {
-	margin: 3em auto 4em auto;
+	margin: 4em auto 0 auto;
 	text-align: center;
 }
 
@@ -388,22 +387,4 @@ footer {
 
 .gnulug-logo {
 	height: 10em;
-}
-
-.main {
-	color: white;
-	text-align: center;
-	padding: 0 2em 0;
-	position: relative;
-	font-family:'Coustard', sans-serif;
-	font-size: 1.5em;
-	line-height: 2em;
-}
-
-.main-head {
-	padding: 0;
-}
-
-#countdown-area .countdown p {
-	padding-bottom: 0;
 }
