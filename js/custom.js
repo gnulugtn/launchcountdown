@@ -11,7 +11,8 @@ $(function() {
 
 	// Countdown
 	$('.countdown').downCount({
-		date: '1/1/2016 00:00:00'
+		date: '1/1/2016 00:00:00',
+		offset: +1
 	});
 
 });
